@@ -1,0 +1,51 @@
+# PlatformIO build directories
+.pio/
+.pioenvs/
+.piolibdeps/
+.pio/build/
+
+# ESP-IDF build output
+build/
+sdkconfig.old
+sdkconfig.defaults
+sdkconfig.ci
+
+# Object files and other compiled artifacts
+*.o
+*.obj
+*.elf
+*.bin
+*.map
+*.d
+
+# VS Code settings and workspace files
+.vscode/
+.vscode/*
+*.code-workspace
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Python virtual environments (if used)
+.venv/
+env/
+venv/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+
+# Component manager cache
+managed_components/
+dependencies.lock
+
+# Ignore partition table CSV backups
+partitions.csv.bak
