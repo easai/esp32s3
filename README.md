@@ -1,5 +1,7 @@
 # ESP32-S3 onboard NeoPixel
 
+<img src="https://github.com/easai/esp32s3/blob/main/IMG_2664.jpeg" width="300" alt="ESP32-S3"/>
+
 This project provides control of the onboard WS2812 and WS2818 addressable LEDs using the ESP-IDF framework. 
 It is configured for the ESP32-S3 development board and uses the official Espressif LED Strip driver with RMT backend support. 
 The implementation cycles through colors on the single onboard LED and can be extended to external LED strips by adjusting configuration parameters.
